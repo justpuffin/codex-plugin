@@ -5,5 +5,3 @@ Puffin gives Codex its own agent identity: an email address, Slack, Discord and 
 **Install:** `codex plugin marketplace add justpuffin/codex-plugin`, then add the Puffin plugin. The first time Codex uses a Puffin tool, it opens Puffin in your browser: sign in, pick the agent and click Allow. No API key is copied.
 
 **From your phone:** ask Codex to "set up Codex from my phone" (the `puffin-phone` skill), or see the repository README.
-
-Privacy: https://www.justpuffin.tech/privacy · Terms: https://www.justpuffin.tech/terms · Docs: https://www.justpuffin.tech/docs

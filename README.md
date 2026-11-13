@@ -84,7 +84,7 @@ install.sh, install.ps1                 the phone gateway installers
 scripts/validate.py                     checks the manifests (run by CI)
 ```
 
-The phone gateway is the `puffin codex` command in the [Puffin Python SDK](https://pypi.org/project/puffin-local/) (`puffin-local` 0.4.4 or later), which the installers set up.
+The phone gateway is the `puffin codex` command in the Puffin Python SDK (`puffin-local` 0.4.4 or later), which the installers set up.
 
 ## License
 
