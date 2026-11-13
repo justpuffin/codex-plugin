@@ -1,0 +1,6 @@
+# Puffin for the Codex CLI without the plugin: append to ~/.codex/config.toml.
+# Codex reads the agent key from PUFFIN_API_KEY (create one under API keys in Puffin); it never appears here.
+# Or leave out bearer_token_env_var and run `codex mcp login puffin` to sign in with your browser instead.
+[mcp_servers.puffin]
+url = "https://api.justpuffin.tech/mcp"
+bearer_token_env_var = "PUFFIN_API_KEY"

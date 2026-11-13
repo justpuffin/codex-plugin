@@ -1,0 +1,20 @@
+{
+  "name": "puffin",
+  "interface": {
+    "displayName": "Puffin"
+  },
+  "plugins": [
+    {
+      "name": "puffin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/puffin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "puffin",
+  "version": "0.1.0",
+  "description": "Give Codex a Puffin agent identity: email, Slack, Discord, Telegram, texts, contacts, calendar and tasks as tools, with every outgoing message waiting for your approval. Includes setup for Codex from your phone.",
+  "author": {
+    "name": "Puffin",
+    "url": "https://www.justpuffin.tech"
+  },
+  "homepage": "https://www.justpuffin.tech/docs",
+  "repository": "https://github.com/justpuffin/codex-plugin",
+  "license": "MIT",
+  "keywords": ["puffin", "agent", "email", "inbox", "telegram", "slack", "discord", "mcp", "approvals"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Puffin",
+        "shortDescription": "Your AI agent's inbox, chats and calendar, with approvals",
+        "longDescription": "Puffin gives Codex its own agent identity: an email address, Slack, Discord and Telegram chats, texts, contacts, memories, a calendar and tasks. Codex can read and search the agent's messages, draft and reply, look up contacts and book meetings. Every send waits for your approval. With Codex from your phone, you message the agent from your phone and Codex works in your project, asking before each command or file change.",
+        "developerName": "Puffin",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://www.justpuffin.tech",
+        "privacyPolicyURL": "https://www.justpuffin.tech/privacy",
+        "termsOfServiceURL": "https://www.justpuffin.tech/terms",
+        "defaultPrompt": [
+          "Use Puffin to show what's new in my agent's inbox.",
+          "Use Puffin to reply to the latest message from Acme."
+        ],
+        "brandColor": "#7054BB",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
